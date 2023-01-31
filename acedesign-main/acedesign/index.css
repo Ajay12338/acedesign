@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/*  Button */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+button{
+    color: #fff;
+    display: block;
+    margin: 22px auto;
+    padding: 10px;
+    border: 2px solid #f9f871;
+    background-color: #181a19;
+    width: 150px;
+    transition: 0.70s;
+}
+button:hover{
+    color: #181a19;
+    background-color: #f9f871;
+}
+/* Navbar */
+.navbar{
+    position:sticky;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 60px;
+    width: 100%;
+    border-bottom: 2px solid #737574;
+}
+/* Containers */
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #181a19;
+    flex-wrap: wrap;
+    
+}
+.contact-coords{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+/* Content */
+.transparent{
+    flex-basis:50%;
+    padding: 20px 0;
+}
+.coords{
+    width: 30%;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Images */
+.fake-img{
+    margin:50px 0 0 0;
+    height: 474px;
+    width: 379px;
+}
+
+/* Main Heading and para */
+.transparent p{
+    color: #fff;
+}
+.transparent h1{
+    color: #f9f871;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 0 20px;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 88px;
+    line-height: 123px;
+    margin-bottom: 10px;
+}
+.left-spacing{
+    margin: 0 0 0 100px;
+}
+.right-spacing{
+    margin: 0 0 0 175px;
+}
+.coords-heading{
+    font-size: 40px;
+}
+.contact-heading{
+    text-align:center;
+}
